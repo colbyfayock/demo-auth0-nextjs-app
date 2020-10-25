@@ -12,18 +12,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My App
+          Admin
         </h1>
 
         <p className={styles.description}>
-          Welcome to my application!
+          Authenticated humans only!
         </p>
 
         <div className={styles.grid}>
-          <Link href="admin">
+          <Link href="/">
             <a className={styles.card}>
-              <h3>Admin &rarr;</h3>
-              <p>Manage the application.</p>
+              <h3>Home &rarr;</h3>
+              <p>Go back to the home page!</p>
             </a>
           </Link>
         </div>
